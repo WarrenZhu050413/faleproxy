@@ -104,4 +104,9 @@ describe('Yale to Fale replacement logic', () => {
     
     expect(modifiedHtml).toContain('FALE University, Fale College, and fale medical school');
   });
+
+  // HW8 - Warren Zhu: This test intentionally fails to demonstrate CI/CD
+  test('test should fail', () => {
+    expect(1 + 1).toBe(3); // This will fail: 2 !== 3
+  });
 });
